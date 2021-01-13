@@ -12,6 +12,6 @@ jobs:
     - uses: ben-z/actions-comment-on-issue@1.0.2
       with:
         message: "Gentle reminder:\n* Did you go through all of the troubleshooting steps outlined in README.md?"
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB }}
 
 
