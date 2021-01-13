@@ -11,7 +11,16 @@ jobs:
     steps:
     - uses: ben-z/actions-comment-on-issue@1.0.2
       with:
-        message: "Gentle reminder:\n* Did you go through all of the troubleshooting steps outlined in README.md?"
+        message: "Hi,
+                 you seem to request access to certain repo but the issue loacks info.
+                 Please add additional info missing:-
+                 1. What repo
+                 2. Reason for access
+                 3. Kind of access
+                 4. Duration of access
+                 
+                 Thanks,
+                 your developer IT team"
         GITHUB_TOKEN: ${{ secrets.GITHUB }}
 
 
