@@ -33,6 +33,6 @@ jobs:
       - name: Verify Repository Access
         uses: ./
         with:
-          github-token: '${{ secrets.GITHUB_TOKEN }}'
+          github-token: '${{ secrets.GITHUB }}'
 
 
